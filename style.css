@@ -2,12 +2,40 @@
     display: none;
 }
 
-#loginform{
-    float: left;
-    width: 70%;
+/* span{
+    display: inline-block;
+} */
+
+#header{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-#topmenu{
+#divMark{
+    margin-top:20px;
+    font-size:18px;
+}
+
+#greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputName 
+#inputText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#inputName{
+    margin-right: 10px;
+}
+.topmenu{
     padding: 10px;
     position: relative;
     top: 10px;
@@ -17,7 +45,7 @@
     align-items: center;
 }
 
-#topmenu *{
+.topmenu *{
     margin: 5px;
 }
 
